@@ -1,6 +1,6 @@
 # Quacker Community Packs
 
-Welcome to the `quacker-community-packs` repository! This repository hosts community-contributed "QuackPacks" for the Quacker application.
+Welcome to the `quacker-community-packs` repository! This repository hosts community-contributed "QuackPacks" for the [Quacker application](https://quacker.cc/).
 
 ## What is a QuackPack?
 
@@ -29,10 +29,10 @@ Upon merging, an automated CI/CD Build Step will:
 
 ## Testing Your QuackPack
 
-Before submitting a Pull Request, you can test how your QuackPack looks and feels in the Quacker application by using the "Sideloading" feature:
+Before submitting a Pull Request, you can test how your QuackPack looks and feels in the [Quacker application](https://quacker.cc/) by using the "Sideloading" feature:
 
 1. **Zip your folder:** Compress the contents of your completed conference folder into a standard `.zip` file. (The zip should contain `config.json` at its root).
-2. **Open Quacker:** Go to the live Quacker application.
+2. **Open Quacker:** Go to the live [Quacker application](https://quacker.cc/).
 3. **Import:** Click the "Import QuackPack" button located in the top header toolbar (nestled between the Infosec Mode and Dark Mode toggle buttons).
 4. **Select your `.zip`:** Choose the `.zip` file you created from your local device.
 5. **Test:** Quacker will temporarily load your configuration and image assets directly into memory. You can test your assets and ensure everything looks correct.
