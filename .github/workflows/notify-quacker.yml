@@ -16,5 +16,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.QUACKER_PAT }}
-          repository: your-username/quacker
+          repository: dalenunns/quacker
           event-type: ingest-quackpacks
