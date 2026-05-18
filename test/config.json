@@ -1,0 +1,369 @@
+{
+    "name": "Test 2026",
+    "website": "https://www.devconf.co.za",
+    "branding": {
+        "url": "devconflogo.png",
+        "size": 300,
+        "padding": 40,
+        "anchor": "top-right"
+    },
+    "default_hashtags": [
+        "#DevConf2026"
+    ],
+    "handles": {
+        "@devconf": {
+            "linkedin": "@devconf.za",
+            "twitter": "@devconfza",
+            "mastodon": "@devconf@mastodon.cloud",
+            "bluesky": "@devconf.co.za",
+            "instagram": "@devconfza",
+            "facebook": "@devconfza"
+        }
+    },
+    "frames": [
+        {
+            "id": "frame_anchored",
+            "name": "DevConf Ducks",
+            "disabled": true,
+            "assets": [
+                {
+                    "url": "DuckCorner.png",
+                    "anchor": "bottom-left",
+                    "size": 300,
+                    "padding": 40
+                },
+                {
+                    "url": "devconflogo.png",
+                    "anchor": "top-right",
+                    "size": 300,
+                    "padding": 40
+                }
+            ]
+        },
+        {
+            "id": "devconf_banner_logo",
+            "name": "DevConf Banner",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#1c1917",
+            "borderColor": "#ffffff",
+            "textColor": "#ffffff",
+            "opacity": 0.9,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "devconflogo.png",
+                    "anchor": "right",
+                    "size": 250,
+                    "padding": 20
+                }
+            ]
+        },
+        {
+            "id": "blank_banner",
+            "name": "Blank Banner",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#1c1917",
+            "borderColor": "#ffffff",
+            "textColor": "#ffffff",
+            "opacity": 0.9,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": []
+        },
+        {
+            "id": "blue_duck_card",
+            "name": "Blue Duck",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#ffffff",
+            "borderColor": "#fbbf24",
+            "textColor": "#1c1917",
+            "opacity": 0.5,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "DuckBlue.png",
+                    "anchor": "left",
+                    "flipX": true,
+                    "size": 240,
+                    "offsetY": -30,
+                    "padding": -30
+                }
+            ]
+        },
+        {
+            "id": "green_duck_card",
+            "name": "Green Duck",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#ffffff",
+            "borderColor": "#fbbf24",
+            "textColor": "#1c1917",
+            "opacity": 0.5,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "DuckGreen.png",
+                    "anchor": "left",
+                    "flipX": true,
+                    "size": 240,
+                    "offsetY": -30,
+                    "padding": -30
+                }
+            ]
+        },
+        {
+            "id": "pink_duck_card",
+            "name": "Pink Duck",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#ffffff",
+            "borderColor": "#fbbf24",
+            "textColor": "#1c1917",
+            "opacity": 0.5,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "DuckPink.png",
+                    "anchor": "left",
+                    "flipX": false,
+                    "size": 240,
+                    "offsetY": -30,
+                    "padding": -30
+                }
+            ]
+        },
+        {
+            "id": "yellow_duck_card",
+            "name": "Yellow Duck",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#ffffff",
+            "borderColor": "#fbbf24",
+            "textColor": "#1c1917",
+            "opacity": 0.5,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "DuckYellow.png",
+                    "anchor": "left",
+                    "flipX": true,
+                    "size": 240,
+                    "offsetY": -30,
+                    "padding": -30
+                }
+            ]
+        },
+        {
+            "id": "purple_duck_card",
+            "name": "Purple Duck",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#ffffff",
+            "borderColor": "#fbbf24",
+            "textColor": "#1c1917",
+            "opacity": 0.5,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "DuckPurple.png",
+                    "anchor": "left",
+                    "flipX": true,
+                    "size": 240,
+                    "offsetY": -30,
+                    "padding": -30
+                }
+            ]
+        },
+        {
+            "id": "red_duck_card",
+            "name": "Red Duck",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#ffffff",
+            "borderColor": "#fbbf24",
+            "textColor": "#1c1917",
+            "opacity": 0.5,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "DuckRed.png",
+                    "anchor": "left",
+                    "flipX": false,
+                    "size": 240,
+                    "offsetY": -30,
+                    "padding": -30
+                }
+            ]
+        },
+        {
+            "id": "rainbow_duck_card",
+            "name": "Rainbow Duck",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#ffffff",
+            "borderColor": "#fbbf24",
+            "textColor": "#1c1917",
+            "opacity": 0.5,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "DuckRainbow.png",
+                    "anchor": "left",
+                    "flipX": true,
+                    "size": 240,
+                    "offsetY": -30,
+                    "padding": -30
+                }
+            ]
+        },
+        {
+            "id": "hoodie_duck_card",
+            "name": "Hoodie Duck",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#ffffff",
+            "borderColor": "#fbbf24",
+            "textColor": "#1c1917",
+            "opacity": 0.5,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "DuckHoodie.png",
+                    "anchor": "left",
+                    "flipX": false,
+                    "size": 240,
+                    "offsetY": -30,
+                    "padding": -30
+                }
+            ]
+        },
+        {
+            "id": "mohawk_duck_card",
+            "name": "Mohawk Duck",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#ffffff",
+            "borderColor": "#fbbf24",
+            "textColor": "#1c1917",
+            "opacity": 0.5,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "DuckMohawk.png",
+                    "anchor": "left",
+                    "flipX": false,
+                    "size": 240,
+                    "offsetY": -30,
+                    "padding": -30
+                }
+            ]
+        },
+        {
+            "id": "goatee_duck_card",
+            "name": "Goatee Duck",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#ffffff",
+            "borderColor": "#fbbf24",
+            "textColor": "#1c1917",
+            "opacity": 0.5,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "DuckGoatee.png",
+                    "anchor": "left",
+                    "flipX": true,
+                    "size": 240,
+                    "offsetY": -30,
+                    "padding": -30
+                }
+            ]
+        },
+        {
+            "id": "sunglasses_duck_card",
+            "name": "Sunglasses Duck",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#ffffff",
+            "borderColor": "#fbbf24",
+            "textColor": "#1c1917",
+            "opacity": 0.5,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "DuckSunglasses.png",
+                    "anchor": "left",
+                    "flipX": true,
+                    "size": 240,
+                    "offsetY": -30,
+                    "padding": -30
+                }
+            ]
+        },
+        {
+            "id": "miss_duckworth_card",
+            "name": "Miss Duckworth",
+            "type": "dynamic_banner",
+            "defaultText": "#DevConf2026\nhttps://www.devconf.co.za",
+            "bgColor": "#ffffff",
+            "borderColor": "#fbbf24",
+            "textColor": "#1c1917",
+            "opacity": 0.5,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "MissDuckworth.png",
+                    "anchor": "left",
+                    "flipX": false,
+                    "size": 240,
+                    "offsetY": -30,
+                    "padding": -30
+                }
+            ]
+        }
+    ]
+}
