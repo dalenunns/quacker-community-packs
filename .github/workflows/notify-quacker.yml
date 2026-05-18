@@ -1,0 +1,20 @@
+name: Notify Quacker Core
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+      - '.github/**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Quacker Ingestion
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.QUACKER_PAT }}
+          repository: your-username/quacker
+          event-type: ingest-quackpacks
