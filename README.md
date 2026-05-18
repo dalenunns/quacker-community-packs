@@ -9,8 +9,8 @@ A QuackPack is a folder (which will be packaged into a ZIP archive) containing a
 ```text
 duckconf/
 ├── config.json         # The conference configuration (handles, frames, colors)
-├── logo.png            # Global branding logo
-└── frames/             # Directory containing all frame assets
+└── assets/             # Directory containing all assets including logo
+    ├── logo.png
     ├── duck_blue.png
     └── duck_yellow.png
 ```
@@ -130,7 +130,7 @@ The `config.json` file is required and defines how your conference appears in Qu
 
 #### Frame Asset Fields
 
-*   `url` (String, **Required**): Relative path to the asset image (e.g., `"frames/duck_blue.png"`).
+*   `url` (String, **Required**): Filename of the asset image in the assets folder (e.g., `"duck_blue.png"`).
 *   `anchor` (String, **Required**): Positioning (`"top-left"`, `"top-right"`, `"bottom-left"`, `"bottom-right"`, `"left"`, `"right"`, `"top"`, `"bottom"`).
 *   `size` (Number, Optional): Image size.
 *   `padding` (Number, Optional): Padding around the image.

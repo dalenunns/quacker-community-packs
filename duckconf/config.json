@@ -54,7 +54,7 @@
             "fontSize": 30,
             "assets": [
                 {
-                    "url": "frames/DuckBlue.png",
+                    "url": "DuckBlue.png",
                     "anchor": "left",
                     "flipX": true,
                     "size": 240,
@@ -78,7 +78,7 @@
             "fontSize": 30,
             "assets": [
                 {
-                    "url": "frames/DuckYellow.png",
+                    "url": "DuckYellow.png",
                     "anchor": "left",
                     "flipX": true,
                     "size": 240,
