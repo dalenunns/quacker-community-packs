@@ -1,0 +1,43 @@
+{
+    "name": "Developer User Group",
+    "website": "https://developerug.org.za/",
+    "enabled": true,
+    "branding": {
+        "url": "logo.png",
+        "size": 273,
+        "padding": 40,
+        "anchor": "top-right"
+    },
+    "default_hashtags": [
+        "#devug"
+    ],
+    "handles": {
+        "@developerug": {
+            "linkedin": "@developerug"
+        }
+    },
+    "frames": [
+        {
+            "id": "developerug_banner",
+            "name": "Developer User Group Banner",
+            "type": "dynamic_banner",
+            "defaultText": "#devug\nhttps://developerug.org.za/",
+            "bgColor": "#000",
+            "borderColor": "#fc6700",
+            "textColor": "#fc6700",
+            "opacity": 0.9,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "logo_small.png",
+                    "anchor": "right",
+                    "size": 173,
+                    "padding": 20
+                }
+            ]
+        }
+    ]
+}
