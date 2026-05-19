@@ -38,6 +38,15 @@ Before submitting a Pull Request, you can test how your QuackPack looks and feel
 5. **Test:** Quacker will temporarily load your configuration and image assets directly into memory. You can test your assets and ensure everything looks correct.
 6. **Volatility:** Since the files are parsed into memory, the sideloaded conference vanishes when the tab is closed or refreshed.
 
+### Local Validation
+
+Before submitting your PR, it's highly recommended to run the automated validation script locally. This script checks your `config.json` against the schema and verifies that all images exist, are under 2MB, and have valid dimensions.
+
+1. Install dependencies: `npm install`
+2. Run the validation: `npm run validate`
+
+If your QuackPack passes the local validation, it will pass the GitHub Action checks when you submit your PR!
+
 
 ## `config.json` Schema
 

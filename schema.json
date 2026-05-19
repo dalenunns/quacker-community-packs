@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QuackPack Configuration",
+  "type": "object",
+  "required": ["name", "default_hashtags", "handles", "frames"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "branding": {
+      "type": "object",
+      "properties": {
+        "url": { "type": "string" },
+        "size": { "type": "number" },
+        "padding": { "type": "number" },
+        "anchor": { 
+          "type": "string",
+          "enum": ["top-left", "top-right", "bottom-left", "bottom-right", "left", "right", "top", "bottom"]
+        }
+      },
+      "required": ["url", "size", "anchor"]
+    },
+    "default_hashtags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "handles": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": { "type": "string" }
+      }
+    },
+    "frames": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "disabled": { "type": "boolean" },
+          "type": { "type": "string" },
+          "defaultText": { "type": "string" },
+          "bgColor": { "type": "string" },
+          "borderColor": { "type": "string" },
+          "textColor": { "type": "string" },
+          "opacity": { "type": "number" },
+          "height": { "type": "number" },
+          "margin": { "type": "number" },
+          "borderRadius": { "type": "number" },
+          "fontSize": { "type": "number" },
+          "assets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["url", "anchor"],
+              "properties": {
+                "url": { "type": "string" },
+                "anchor": { "type": "string" },
+                "size": { "type": "number" },
+                "padding": { "type": "number" },
+                "flipX": { "type": "boolean" },
+                "flipY": { "type": "boolean" },
+                "offsetX": { "type": "number" },
+                "offsetY": { "type": "number" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
