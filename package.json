@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node scripts/validate.js",
-    "validate": "node scripts/validate.js"
+    "validate": "node scripts/validate.js",
+    "create": "node scripts/create.js"
   },
   "repository": {
     "type": "git",

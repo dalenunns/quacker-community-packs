@@ -17,10 +17,12 @@ duckconf/
 
 ## Contribution Workflow
 
-1. Fork this repository.
-2. Create a folder with your conference name (e.g., `devconf_2026`).
-3. Inside your folder, include your `config.json` and assets.
-4. Submit a Pull Request.
+1. Fork and clone this repository.
+2. Install dependencies by running `npm install`.
+3. Run `npm run create` to interactively generate a skeleton QuackPack folder with a pre-configured `config.json` and an `assets/` directory.
+4. Place your image assets in the generated folder, and customize the `config.json`.
+5. Run `npm run validate` to ensure your pack is error-free.
+6. Submit a Pull Request!
 
 Upon merging, an automated CI/CD Build Step will:
 * Validate your `config.json` against the schema.
