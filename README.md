@@ -74,7 +74,10 @@ The `config.json` file is required and defines how your conference appears in Qu
         "@duckconf": {
             "twitter": "@duckconf",
             "mastodon": "@duckconf@mastodon.cloud",
-            "bluesky": "@duckconf.example.com"
+            "bluesky": "@duckconf.example.com",
+            "linkedin": "@duckconf",
+            "instagram": "@duckconf",
+            "facebook": "@duckconf"
         }
     },
     "frames": [
@@ -117,7 +120,7 @@ The `config.json` file is required and defines how your conference appears in Qu
     *   `padding` (Number, Optional): Padding around the image.
     *   `anchor` (String, Optional): Anchor position (`"top-right"`, `"bottom-left"`, etc.).
 *   `default_hashtags` (Array of Strings, Optional): Hashtags automatically appended to posts.
-*   `handles` (Object, Optional): Mapping of user handles to their platform-specific usernames.
+*   `handles` (Object, Optional): Mapping of user handles to their platform-specific usernames. Supported platforms are `twitter`, `mastodon`, `linkedin`, `bluesky`, `instagram`, and `facebook`.
 *   `frames` (Array of Objects, **Required**): Definitions for the available frames/overlays.
 
 ### Frame Object Fields
