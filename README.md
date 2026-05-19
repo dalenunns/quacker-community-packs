@@ -136,3 +136,7 @@ The `config.json` file is required and defines how your conference appears in Qu
 *   `padding` (Number, Optional): Padding around the image.
 *   `offsetY` (Number, Optional): Vertical offset.
 *   `flipX` (Boolean, Optional): If `true`, horizontally flips the image.
+
+## Support and Feedback
+
+For feedback or questions about Quacker and QuackPacks, contact us at [feedback@quacker.cc](mailto:feedback@quacker.cc).
