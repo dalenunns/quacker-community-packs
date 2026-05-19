@@ -35,6 +35,12 @@ for (const dir of dirs) {
 
     console.log(`\nValidating QuackPack: ${dir}`);
 
+    // 0. Check folder name for invalid characters
+    if (!/^[a-zA-Z0-9_-]+$/.test(dir)) {
+        logError(dir, 'Invalid folder name. Only alphanumeric characters, underscores, and hyphens are allowed, with no spaces.');
+        continue;
+    }
+
     // 1. Check if config.json exists
     if (!fs.existsSync(configPath)) {
         logError(dir, 'Missing config.json');
