@@ -31,14 +31,24 @@ Upon merging, an automated CI/CD Build Step will:
 
 ## Testing Your QuackPack
 
-Before submitting a Pull Request, you can test how your QuackPack looks and feels in the [Quacker application](https://quacker.cc/) by using the "Sideloading" feature:
+Before submitting a Pull Request, you can test how your QuackPack looks and feels in the [Quacker application](https://quacker.cc/) by using the "Sideloading" feature. We provide an automated command to generate the `.zip` file for you, but you can also do it manually.
 
-1. **Zip your folder:** Compress the contents of your completed conference folder into a standard `.zip` file. (The zip should contain `config.json` at its root).
-2. **Open Quacker:** Go to the live [Quacker application](https://quacker.cc/).
-3. **Import:** Click the "Import QuackPack" button located in the top header toolbar (nestled between the Infosec Mode and Dark Mode toggle buttons).
-4. **Select your `.zip`:** Choose the `.zip` file you created from your local device.
-5. **Test:** Quacker will temporarily load your configuration and image assets directly into memory. You can test your assets and ensure everything looks correct.
-6. **Volatility:** Since the files are parsed into memory, the sideloaded conference vanishes when the tab is closed or refreshed.
+### Automated Packing (Recommended)
+
+1. Run `npm run pack <folder_name>` (e.g., `npm run pack developerug`).
+2. This will generate a `<folder_name>.zip` file in the root of the repository.
+
+### Manual Packing
+
+1. **Zip your folder:** Compress the contents of your completed conference folder into a standard `.zip` file manually. (The zip should contain `config.json` at its root).
+
+### Sideloading into Quacker
+
+1. **Open Quacker:** Go to the live [Quacker application](https://quacker.cc/).
+2. **Import:** Click the "Import QuackPack" button located in the top header toolbar (nestled between the Infosec Mode and Dark Mode toggle buttons).
+3. **Select your `.zip`:** Choose the `.zip` file you created from your local device.
+4. **Test:** Quacker will temporarily load your configuration and image assets directly into memory. You can test your assets and ensure everything looks correct.
+5. **Volatility:** Since the files are parsed into memory, the sideloaded conference vanishes when the tab is closed or refreshed.
 
 ### Local Validation
 
