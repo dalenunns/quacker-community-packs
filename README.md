@@ -20,7 +20,7 @@ duckconf/
 1. Fork and clone this repository.
 2. Install dependencies by running `npm install`.
 3. Run `npm run create` to interactively generate a skeleton QuackPack folder with a pre-configured `config.json` and an `assets/` directory.
-4. Place your image assets in the generated folder, and customize the `config.json`.
+4. Place your image assets in the generated folder, and customise the `config.json`.
 5. Run `npm run validate` to ensure your pack is error-free.
 6. Submit a Pull Request!
 
