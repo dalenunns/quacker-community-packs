@@ -1,0 +1,48 @@
+{
+    "name": "Code&",
+    "website": "https://code-and.co.za",
+    "enabled": true,
+    "branding": {
+        "url": "logo.png",
+        "size": 300,
+        "padding": 40,
+        "anchor": "top-right"
+    },
+    "default_hashtags": [
+        "#code-and"
+    ],
+    "handles": {
+        "@code-and": {
+            "twitter": "@code-and",
+            "mastodon": "@code-and@mastodon.cloud",
+            "linkedin": "@code-and",
+            "bluesky": "@code-and.bsky.social",
+            "instagram": "@code-and",
+            "facebook": "@code-and"
+        }
+    },
+    "frames": [
+        {
+            "id": "code-and_banner",
+            "name": "Code& Banner",
+            "type": "dynamic_banner",
+            "defaultText": "#I'mFIT\nhttps://code-and.co.za",
+            "bgColor": "#1c1917",
+            "borderColor": "#ffffff",
+            "textColor": "#ffffff",
+            "opacity": 0.9,
+            "height": 130,
+            "margin": 30,
+            "borderRadius": 30,
+            "fontSize": 30,
+            "assets": [
+                {
+                    "url": "logo.png",
+                    "anchor": "right",
+                    "size": 250,
+                    "padding": 20
+                }
+            ]
+        }
+    ]
+}
